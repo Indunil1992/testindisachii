@@ -26,7 +26,16 @@
             "resourceName": "apigusEast1testEdgeindutestinduany",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "d0d35c4c-a396-4908-8a01-955f4d0da1d4": {
+            "id": "d0d35c4c-a396-4908-8a01-955f4d0da1d4",
+            "name": "Test event",
+            "functionId": "52931935-cd42-42c3-a50b-bbc2ce6b53f1",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -41,7 +50,7 @@
           "selectedRegion": "us-east-1",
           "apiMode": 0,
           "apiName": "testEdge_indu",
-          "endpointType": "EDGE",
+          "endpointType": "REGIONAL",
           "resourceMode": 0,
           "resourceName": "test/indu",
           "resourcePath": "/test/indu",
@@ -80,7 +89,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585650841414
+    "lastSave": 1585650980654
   },
   "VCS_STATE": {
     "provider": "GitHub",
