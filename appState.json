@@ -12,7 +12,7 @@
         "filePath": "testIndiSachii.js",
         "cursor": {
           "lineNumber": 3,
-          "column": 57
+          "column": 61
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -25,7 +25,7 @@
           {
             "resourceName": "cognitotest",
             "config": {
-              "triggerType": "CustomMessage"
+              "triggerType": "PreSignUp"
             }
           }
         ],
@@ -333,7 +333,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585652108317
+    "lastSave": 1585652679774
   },
   "VCS_STATE": {
     "provider": "GitHub",
