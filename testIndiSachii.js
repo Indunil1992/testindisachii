@@ -1,4 +1,4 @@
 exports.handler = async (event) => {
     
-    return {"message": "Successfully executed by regionasl"};
+    return {"message": "Successfully executed by cognito"};
 };
